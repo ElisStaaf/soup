@@ -16,7 +16,7 @@ gh repo clone ElisStaaf/soup
 ```
 Then, you want to build the executable:
 ```bash
-make
+./install.sh
 # OR
 go build soup.go
 ```
