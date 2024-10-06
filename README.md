@@ -24,3 +24,8 @@ Usage
 ```bash
 soup <query> <path>
 ```
+
+Conclusion
+----------
+So, yeah, my version is infinitely better because it's written in go, and go is awesome. End of
+conversation. Enjoy!
