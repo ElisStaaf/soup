@@ -10,7 +10,7 @@ import (
 
 func parseArgs(flagArgs []string) (string, []string) {
 	if len(flagArgs) < 2 {
-		log.Fatal("usage: fgrup <query> <path>")
+		log.Fatal("usage: soup <query> <path>")
 	}
 	paths := []string{flagArgs[1]}
 	return flagArgs[0], paths
