@@ -27,5 +27,5 @@ soup <query> <path>
 
 Conclusion
 ----------
-So, yeah, my version is infinitely better because it's written in go, and go is awesome. End of
-conversation. Enjoy!
+So, yeah, my version is infinitely better because it's written in go, and go is awesome. If you say that anything other than go is best for these kinds of
+things, i will find you. Anyway, feel free to contribute and enjoy the project!
