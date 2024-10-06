@@ -4,8 +4,7 @@ import (
 	"flag"
 	"log"
 	"regexp"
-
-	"github.com/ElisStaaf/soup/utils"
+	"soup/utils"
 )
 
 func parseArgs(flagArgs []string) (string, []string) {
