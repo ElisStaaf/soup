@@ -3,7 +3,7 @@
 [![Build](https://img.shields.io/badge/Build_(openSUSE)-passing-19e646?logo=opensuse&logoColor=19e646)](https://github.com/ElisStaaf/soup)
 [![Language](https://img.shields.io/badge/Language-Go-20c9df?logo=Go)](https://github.com/ElisStaaf/soup)    
 I got tired of using stable command line tools like `grep`, so i made an unstable one!
-It works... I think? I haven't tested it yet. But hey! It's written in go!
+It works... I think? But hey! It's written in go!
 
 Install
 -------
@@ -24,8 +24,16 @@ Then you're done!
 
 Usage
 -----
+The parameters for soup are:
+* query
+* path
+But you can *also* add flags to customize the parser:
+* -n - display line number for non-binary files
+* -re - treat query as a regex (regular expression)
+Here's an example of what a valid soup invocation looks like:
 ```bash
-soup <query> <path>
+$ soup -re -n Hello World! main.go
+main.go:8     fmt.Println("Hello World!")
 ```
 
 Conclusion
