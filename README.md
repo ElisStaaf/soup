@@ -32,7 +32,7 @@ But you can *also* add flags to customize the parser:
 * -re - treat query as a regex (regular expression)
 Here's an example of what a valid soup invocation looks like:
 ```bash
-$ soup -re -n Hello World! main.go
+$ soup -re -n "Hello World!" main.go
 main.go:8     fmt.Println("Hello World!")
 ```
 
