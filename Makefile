@@ -1,13 +1,9 @@
-BINARY=soup
+BINARY=/usr/bin/soup
 SOURCE=soup.go
 
-build:
-	go build -o ${BINARY} ${SOURCE}
-
-run:
-	go build -o ${BINARY} ${SOURCE}
-	./${BINARY}
+install:
+        go build -o ${BINARY} ${SOURCE}
 
 clean:
-	go clean
-	rm ${BINARY}
+        go clean
+        rm ${BINARY}
