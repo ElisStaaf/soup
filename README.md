@@ -1,6 +1,6 @@
 # Soup - Grepping tool
 [![Version](https://img.shields.io/badge/Version-1.0.0-a53fc0)](https://github.com/ElisStaaf/soup)
-[![Build](https://img.shields.io/badge/Build_(openSUSE)-passing-19e646?logo=opensuse&logoColor=19e646)](https://github.com/ElisStaaf/soup)
+[![Build](https://img.shields.io/badge/Build%20(Fedora)-passing-2a7fd5?logo=fedora&logoColor=2a7fd5)](https://github.com/ElisStaaf/soup)
 [![Language](https://img.shields.io/badge/Language-Go-20c9df?logo=Go)](https://github.com/ElisStaaf/soup)    
 I got tired of using stable command line tools like `grep`, so i made an unstable one!
 It works... I think? But hey! It's written in go!
