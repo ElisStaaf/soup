@@ -5,6 +5,12 @@
 I got tired of using stable command line tools like `grep`, so i made an unstable one!
 It works... I think? But hey! It's written in go!
 
+Requirements
+------------
+* Make
+* Go
+* Git or Gh
+
 Install
 -------
 Firstly, you wanna clone the repo:
@@ -16,9 +22,7 @@ gh repo clone ElisStaaf/soup
 ```
 Then, you want to build the executable:
 ```bash
-./install.sh
-# OR
-go build soup.go
+sudo make install
 ```
 Then you're done!
 
