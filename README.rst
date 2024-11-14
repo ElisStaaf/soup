@@ -41,11 +41,15 @@ Then you're done!
 Usage
 -----
 The parameters for soup are:
+
 * query
 * path
+
 But you can *also* add flags to customize the parser:
+
 * -n - display line number for non-binary files
 * -re - treat query as a regex (regular expression)
+
 Here's an example of what a valid soup invocation looks like:
 
 .. code:: bash
